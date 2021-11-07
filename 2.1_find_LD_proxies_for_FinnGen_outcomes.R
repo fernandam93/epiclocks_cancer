@@ -15,7 +15,7 @@
 # Clear environment
 rm(list=ls()) #Remove any existing objects in R 
 
-# Set working directory - folder in my computer
+# Set working directory
 setwd("your_working_directory") 
 
 if (!require("pacman")) install.packages("pacman")
