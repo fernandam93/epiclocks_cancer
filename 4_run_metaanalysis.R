@@ -72,6 +72,10 @@ results_FINNGEN <- results_FINNGEN[which(results_FINNGEN$outcome=='Breast cancer
 # Combine results
 results <- rbind(results_IEU, results_UKB, results_FINNGEN)
 
+#---------------------------------------------------------------------#
+#                           Run meta-analysis                         #----
+#---------------------------------------------------------------------#
+
 # Function to run a fixed effect meta-analysis 
 meta_func <- function(method_varname, exp_varname, out1, out2="", out3="", out4="", 
                         out5="", out6="", out7="", out8="", out9="", out10="", 
