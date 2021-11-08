@@ -15,8 +15,8 @@
 # Clear environment
 rm(list=ls()) #Remove any existing objects in R 
 
-# Set working directory - folder in my computer
-setwd("/Volumes/MRC-IEU-research/projects/icep2/wp1/019/working") 
+# Set working directory 
+setwd("your_working_directory") 
 
 if (!require("pacman")) install.packages("pacman")
 pacman::p_load("MRInstruments", "TwoSampleMR", "tidyverse", "dplyr", "ggpubr", "ggplot2", "ggforce", "data.table", "ggforestplot")
