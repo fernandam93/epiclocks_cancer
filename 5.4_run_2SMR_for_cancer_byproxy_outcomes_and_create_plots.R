@@ -26,7 +26,7 @@ pacman::p_load("MRInstruments", "TwoSampleMR", "tidyverse", "dplyr", "ggpubr", "
 #                             Read Exposures                          #----
 #---------------------------------------------------------------------#
 
-exp_dat <- read.table(file = "data/exp_data.txt", header = T)
+exp_dat <- read.table(file = "exp_data.txt", header = T)
 
 #---------------------------------------------------------------------#
 #                           Outcomes                              #----
