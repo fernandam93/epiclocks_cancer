@@ -3,13 +3,13 @@ This code relates to the project titled "Assessing the causal role of epigenetic
 
 ## Step 1: Create exposure datasets
 
-**First, we need to create exposure datasets. We downloaded complete summary statistics for epigenetic age acceleration (as measured by GrimAge, PhenoAge, HannumAge and Intrinsic HorvathAge) from https://datashare.ed.ac.uk/handle/10283/3645**
+**First, we needed to create exposure datasets. We downloaded complete summary statistics for epigenetic age acceleration (as measured by GrimAge, PhenoAge, HannumAge and Intrinsic HorvathAge) from https://datashare.ed.ac.uk/handle/10283/3645**
 
 1_create_exposure_datasets.R
 
 ## Step 2: Find LD proxies for missing SNPs
 
-**Next, we need to find linkage disequilibrium (LD) proxies for genetic variants missing in the outcome dataset. Here, we did this using the LDlinkR package**
+**Next, we needed to find linkage disequilibrium (LD) proxies for genetic variants missing in the outcome dataset. Here, we did this using the LDlinkR package.**
 
 2.1_find_LD_proxies_for_FinnGen_outcomes.R
 
@@ -19,7 +19,7 @@ This code relates to the project titled "Assessing the causal role of epigenetic
 
 ## Step 3: Run two-sample MR analysis
 
-**Now that we have our exposure and outcome datasets, we can run the two-sample MR analysis. We did this separately for FinnGen, UK Biobank and international consortiums. We also ran the analysis for cancer subtypes in international consortiums**
+**Once our exposure and outcome datasets were ready, we ran the two-sample MR analysis. We did this separately for FinnGen, UK Biobank and international consortiums. We also ran the analysis for cancer subtypes in international consortiums.**
 
 3.1_run_2SMR_for_FinnGen.R
 
@@ -31,13 +31,13 @@ This code relates to the project titled "Assessing the causal role of epigenetic
 
 ## Step 4: Run meta-analysis
 
-**We combined two-sample MR results obtained in the previous step using a fixed-effect meta-analysis. This was done using the meta package**
+**We combined two-sample MR results obtained in the previous step using a fixed-effect meta-analysis. This was done using the meta package.**
 
 4_run_metaanalysis.R
 
 ## Step 5: Create visualizations
 
-**We created plots for main, secondary and sensitivity analyses using the meta and ggforestplot packages**
+**We created plots for main, secondary and sensitivity analyses using the meta and ggforestplot packages.**
 
 5.1_create_metaanalysis_plots_detail.R
 
@@ -51,7 +51,7 @@ This code relates to the project titled "Assessing the causal role of epigenetic
 
 ## Step 6: Run CAUSE analysis
 
-**We ran CAUSE analyses for GrimAge acceleration and prostate and colorectal cancers only, as a sensitivity analysis**
+**We ran CAUSE analyses for GrimAge acceleration and prostate and colorectal cancers only, as a sensitivity analysis.**
 
 6.1_run_CAUSE_for_GrimAge_PrCinPRACTICAL.R
 
