@@ -35,7 +35,7 @@ This code relates to the project titled "Assessing the causal role of epigenetic
 
 4_run_metaanalysis.R
 
-## Step 5: Create visualizations
+## Step 5: Create visualisations
 
 **We created plots for main, secondary and sensitivity analyses using the meta and ggforestplot packages.**
 
