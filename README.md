@@ -55,6 +55,6 @@ This code relates to the project titled "Assessing the causal role of epigenetic
 
 6.1_run_CAUSE_for_GrimAge_PrCinPRACTICAL.R
 
-6.2_run_CAUSE_for_GrimAge_CRCinUKB.R
+6.2_run_CAUSE_for_GrimAge_CRCinGECCO.R
 
 
